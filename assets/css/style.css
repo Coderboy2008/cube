@@ -167,8 +167,7 @@ body{
 }
 
 .title .span-title{
-    font-family: sans-serif;
-    font-size: 61px;
+    font-size: 50px;
     color: #020202;
     font-weight: 500;
 }
@@ -381,6 +380,12 @@ body{
     }
 }
 
+/* @media (min-width:319px) {
+    .title .span-title{
+        font-size: 30px !important;
+        color: #ddd;
+    }
+} */
 
 
 
