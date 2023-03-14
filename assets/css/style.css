@@ -210,7 +210,7 @@ body{
     transition: all .3s ease;
 }
 
-/* .tab-bar-sec2 .nav-list .nav-item{
+.tab-bar-sec2 .nav-list .nav-item{
     margin-left: 10px !important;
 }
 
@@ -278,14 +278,14 @@ body{
     display: flex;
     justify-content: left;
     margin-top: 70px;
-} */
+}
 
-/* .parent-title .title{
+.parent-title .title{
     color: #020202;
     font-weight: 500;
     font-size: 1.7em;
     max-width: 455px;
-} */
+}
 
 .parent-abilites .my-abilites{
     margin-bottom: 100px;
