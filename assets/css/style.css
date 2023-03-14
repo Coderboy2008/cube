@@ -5,7 +5,7 @@
 
 body{
     font-family: sans-serif;
-    font-family: 'Gilroy';
+    font-family: 'Gilroy', FontAwesome;
 }
 
 .first-section{
@@ -118,8 +118,8 @@ body{
 .parent-title-sec1 .title-h1{
     margin-top: 10px;
     color: #fff;
-    max-width: 300px;
-    font-size: 53px;
+    max-width: 500px;
+    font-size: 63px;
 }
 
 .section1 .scroller{
@@ -134,9 +134,8 @@ body{
     height: 1em;
     position: absolute;
     z-index: 24;
-    right: 0;
     bottom: 6em;
-    left: 50%;
+    left: 48%;
     border-left: 0.125rem solid #fff;
     border-bottom: 0.125rem solid #fff;
     animation: scrolldown 1.4s infinite;
@@ -313,7 +312,7 @@ body{
 
 .d-flex .strong-abilites{
     margin-right: 2em;
-    max-width: 153px;
+    max-width: 214px;
 }
 
 .strong-abilites .name-abilites{
@@ -321,24 +320,172 @@ body{
     font-weight: 500;
 }
 
-
-/* @media */
-
-@media (min-width:325px) {
-    .title-h1{
-        font-size: 38px !important;
-        max-width: 300pxpx !important;
-    }
+.section4{
+    margin-top: 30px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 518px;
 }
 
-@media (min-width:749px) {
-    .title-h1{
-        font-size: 63px !important;
-        max-width: 500px !important;
-    }
+.title-sec4{
+    margin-top: 40px;
 }
 
-@media (min-width:325px) {
+.title-sec4 .title{
+    color: #020202;
+    font-size: 50px;
+    font-weight: 500;
+    max-width: 400px;
+}
+
+.title-sec4 .title .span-buy-now{
+    color: #4726e1;
+    font-size: 50px;
+    font-weight: 500;
+    transition: all .5s linear;
+}
+
+.title-sec4 .title .span-buy-now:hover{
+    border-bottom: 1px solid #4726e1;
+}
+
+.parent-imgs-sec4{
+    margin-top: 20px;
+}
+
+.parent-imgs-sec4 .img-section4{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.322);
+    width: 100%;
+}
+
+.parent-imgs-sec4 .first-img{
+    position: relative;
+    left: 30%;
+    z-index: 1;
+}
+
+.parent-imgs-sec4 .secound-img{
+    position: relative;
+    bottom: 108px;
+    left: 11%;
+    z-index: 2;
+}
+
+.parent-imgs-sec4 .last-img{
+    position: relative;
+    bottom: 27em;
+    top: 100%;
+    z-index: 3;
+}
+
+.last-section{
+    background-color: #020202;
+    width: 100%;
+    height: 100%;
+}
+
+.row-control{
+    padding-top: 104px;
+}
+
+.card{
+    background-color: unset;
+}
+
+.title-first-faq{
+    color: #fff;
+    font-size: 1.8em !important;
+    display: flex;
+}
+
+.description-faq{
+    color: rgba(255,255,255,0.75);
+    margin-left: 42px;
+    margin-top: -18px;
+}
+
+.hambourgur{
+    background: none;
+}
+
+.hambourgur:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.hambourgur .line{
+    display: block;
+    position: relative;
+    background-color: #fff;
+    z-index: 2;
+    right: -2px;
+    width: 16px;
+    height: 2px;
+    border-radius: 48px;
+    margin-bottom: 3px;
+    transition: all .3s ease;
+}
+
+.hambourgur .line:first-child{
+    transform: rotate(224deg);
+}
+
+.hambourgur.collapsed .line:first-child{
+    transform: rotate(0deg);
+}
+
+.hambourgur .line:last-child{
+    transform: rotate(315deg);
+    position: relative;
+    top: -5px;
+}
+
+.hambourgur.collapsed .line:last-child{
+    transform: rotate(90deg);
+    position: relative;
+    top: -5px;
+}
+
+.description-faq .parent-btn-get .get-in-touch{
+    width: 147px;
+    height: 40px;
+    color: #fff;
+    border: solid;
+    border-radius: 100px;
+    border-color: #4726e1;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    background-color: #4726e1;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.description-faq .parent-btn-get .get-in-touch::after{
+    font-family: FontAwesome !important;
+    content: "\f178";
+    margin-left: 12px;
+}
+
+.parent-btn-get .get-in-touch:hover{
+    background-color: #3c20bf;
+    border-color: #3c20bf;
+}
+
+.parent-img-faq .img-faq{
+    width: 100%;
+}
+
+
+/* /////////////////////////////////////
+///////////// media /////////////////
+//////////////////////////////////// */
+
+@media (max-width:576px) {
+    .title-h1{
+        font-size: 30px !important;
+        max-width: 300px !important;
+    }
+
     .name-product{
         font-size: 1.25rem !important;
     }
@@ -374,21 +521,39 @@ body{
     }
 }
 
-@media (min-width:425px) {
-    .strong-abilites{
-        max-width: unset !important;
+@media (max-width:576px) {
+    .title .span-title{
+        font-size: 30px;
+    }
+    .title-section2 .title{
+        font-size: 25px;
+        max-width: 374px;
+    }
+    .parent-imgs-sec4 .last-img{
+        bottom: 17em;
+    }
+    .parent-imgs-sec4 .secound-img{
+        bottom: 57px;
+    }
+    .title-sec4 .title{
+        font-size: 30px;
+    }
+    .title-sec4 .title .span-buy-now{
+        font-size: 30px;
+    }
+    .d-flex .strong-abilites{
+        max-width: 130px;
     }
 }
 
 
 
 
-
-
-
-
-
-/* keframes */
+/*
+///////////////////////////////
+////////////keframes//////////
+/////////////////////////////
+ */
 
 @keyframes scrolldown{
     0%{
