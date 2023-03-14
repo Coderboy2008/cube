@@ -210,7 +210,7 @@ body{
     transition: all .3s ease;
 }
 
-.tab-bar-sec2 .nav-list .nav-item{
+/* .tab-bar-sec2 .nav-list .nav-item{
     margin-left: 10px !important;
 }
 
@@ -278,7 +278,7 @@ body{
     display: flex;
     justify-content: left;
     margin-top: 70px;
-}
+} */
 
 /* .parent-title .title{
     color: #020202;
