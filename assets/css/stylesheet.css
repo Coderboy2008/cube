@@ -56,17 +56,6 @@
 @font-face {
     font-family: 'Gilroy';
     src:
-        url('../fonts/Gilroy-Semibold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Gilroy-Semibold.woff2') format('woff2'),
-        url('../fonts/Gilroy-Semibold.woff') format('woff'),
-        url('../fonts/Gilroy-Semibold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Gilroy';
-    src:
         url('../fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
         url('../fonts/Gilroy-Medium.woff2') format('woff2'),
         url('../fonts/Gilroy-Medium.woff') format('woff'),
@@ -117,18 +106,6 @@
         url('../fonts/Gilroy-RegularItalic.woff') format('woff'),
         url('../fonts/Gilroy-RegularItalic.ttf') format('truetype');
     font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Gilroy';
-    src: url('Gilroy-SemiboldItalic.eot');
-    src: local('Gilroy Semibold Italic'), local('Gilroy-SemiboldItalic'),
-        url('Gilroy-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
-        url('Gilroy-SemiboldItalic.woff2') format('woff2'),
-        url('Gilroy-SemiboldItalic.woff') format('woff'),
-        url('Gilroy-SemiboldItalic.ttf') format('truetype');
-    font-weight: 600;
     font-style: italic;
 }
 
