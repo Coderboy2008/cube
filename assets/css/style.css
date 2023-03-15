@@ -393,10 +393,16 @@ body{
     background-color: unset;
 }
 
+.accordion-info{
+    display: flex;
+}
+
 .title-first-faq{
     color: #fff;
-    font-size: 1.8em !important;
+    font-size: 1.8em;
     display: flex;
+    max-width: 100%;
+    cursor: pointer;
 }
 
 .description-faq{
@@ -407,6 +413,7 @@ body{
 
 .hambourgur{
     background: none;
+    margin-top: 8px;
 }
 
 .hambourgur:focus{
@@ -544,6 +551,9 @@ body{
     }
     .d-flex .strong-abilites{
         max-width: 130px;
+    }
+    .title-first-faq{
+        font-size: 1.5em;
     }
 }
 
