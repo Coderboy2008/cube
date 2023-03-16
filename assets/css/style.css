@@ -419,6 +419,7 @@ body{
     background-color: #020202;
     width: 100%;
     height: 100%;
+    border-bottom: 1px #444 solid;
 }
 
 .row-control{
@@ -437,6 +438,7 @@ body{
 .accordion:hover .title-first-faq{
     color: #444;
 }
+
 .accordion-info{
     display: flex;
 }
@@ -536,6 +538,83 @@ body{
     width: 100%;
 }
 
+/* #################################
+#######################################
+############ footer ################
+#######################################
+#######################################
+ */
+
+.sec-footer{
+    background-color: #020202;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.parent-created-date{
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.parent-created-date .created-date{
+    font-size: 12px;
+    font-weight: 900;
+    color: #7c7c7c;
+}
+
+.parent-logo-in-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.parent-btn-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent-btn-footer .btn-footer{
+    background-color: unset;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.parent-btn-footer .btn-footer::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+    width: 0%;
+    height: 1px;
+    background-color: #fff;
+    border-bottom: 1px solid currentColor;
+    transition: width .3s;
+}
+
+.parent-btn-footer .btn-footer:hover::before{
+    width: 30%;
+}
+
+.parent-btn-footer .btn-footer::after{
+    content: "\f178";
+    margin-left: 5px;
+    transition: margin-left .3s;
+}
+
+.parent-btn-footer .btn-footer:hover::after{
+    margin-left: 10px;
+}
+
+.parent-btn-footer .btn-footer:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+
 
 /* /////////////////////////////////////
 ///////////// media /////////////////
@@ -608,7 +687,21 @@ body{
     .title-first-faq{
         font-size: 1.5em;
     }
+    .order1{
+        order: 1;
+    }
+    
+    .order2{
+        order: 2;
+    }
+    
+    .order3{
+        order: 3;
+    }    
 }
+
+
+
 
 /*
 ///////////////////////////////
@@ -631,3 +724,4 @@ body{
         opacity: 0;
     }
 }
+
