@@ -430,6 +430,25 @@ body{
     background-color: unset;
 }
 
+.accordion:hover .line{
+    background-color: #444;
+}
+
+.accordion:hover .title-first-faq{
+    color: #444;
+}
+.accordion-info{
+    display: flex;
+}
+
+.card-header:hover .line{
+    background-color: #fff;
+}
+
+.card-header:hover .title-first-faq{
+    color: #fff;
+}
+
 .title-first-faq{
     color: #fff;
     font-size: 1.8em;
