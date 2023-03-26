@@ -8,10 +8,12 @@ This site is fully responsive!
 
 # How to download this project?
 
-public function printName($name)```
+public function printName($name)
 }
-Clone git https://github.com/Coderboy2008/cube.git
+
 {
+```
+Clone git https://github.com/Coderboy2008/cube.git
 ```
 
 # The last word
