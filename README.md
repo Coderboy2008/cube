@@ -9,7 +9,7 @@ This site is fully responsive!
 # How to download this project?
 
 ```
-git Clone https://github.com/Coderboy2008/cube.git
+git clone https://github.com/Coderboy2008/cube.git
 ```
 
 # The last word
@@ -29,7 +29,7 @@ Good luck !
 #چگونه این پروژه را دانلود کنیم؟
 
 ```
-git Clone https://github.com/Coderboy2008/cube.git
+git clone https://github.com/Coderboy2008/cube.git
 ```
 
 #آخرین کلام
