@@ -18,7 +18,7 @@ This project is on the internet at $49.9 but I uploaded it for you for free!
 Good luck !
 
 
-#مکعب
+# مکعب
 
 این وب سایت برای تمرین من است!
 من فقط در این پروژه هستم
@@ -32,7 +32,7 @@ Good luck !
 git clone https://github.com/Coderboy2008/cube.git
 ```
 
-#آخرین کلام
+# آخرین کلام
 
 این پروژه در اینترنت در 49.9 دلار است اما من برای شما رایگان آپلود کردم!
 موفق باشید !
