@@ -9,9 +9,9 @@ This site is fully responsive!
 # How to download this project?
 
 public function printName($name)```
-{
-Clone git https://github.com/Coderboy2008/cube.git
 }
+Clone git https://github.com/Coderboy2008/cube.git
+{
 ```
 
 # The last word
@@ -31,9 +31,9 @@ Good luck !
 #چگونه این پروژه را دانلود کنیم؟
 
 public function printName($name)```
-{
-Clone git https://github.com/Coderboy2008/cube.git
 }
+Clone git https://github.com/Coderboy2008/cube.git
+{
 ```
 
 #آخرین کلام
