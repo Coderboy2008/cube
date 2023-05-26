@@ -6,6 +6,8 @@ This project was created by me
 This project is created for everyone!
 This site is fully responsive!
 
+link : https://coderboy2008.github.io/cube
+
 # How to download this project?
 
 ```
@@ -26,7 +28,9 @@ Good luck !
 این پروژه  برای همه ایجاد شده است!
 این سایت کاملا ریسپانسیو است!
 
-#چگونه این پروژه را دانلود کنیم؟
+لینک : https://coderboy2008.github.io/cube
+
+# چگونه این پروژه را دانلود کنیم؟
 
 ```
 git clone https://github.com/Coderboy2008/cube.git
